@@ -27,7 +27,7 @@ export default function Cart() {
                 cartItems.length === 0 ? (
                   <h2 className=' fs-4 text-center'>No item added to the cart</h2>
                 ) : (
-                  <table className='table bordered'>
+                  <table className='table bordered table-responsive'>
                     <thead>
                       <tr>
                         <th>Image</th>
